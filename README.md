@@ -9,6 +9,7 @@ The site is intentionally lightweight. It uses plain HTML, CSS and a small JavaS
 - `index.html` — all visible website content and links
 - `styles.css` — colours, typography, layout and responsive design
 - `script.js` — automatically updates the copyright year
+- `assets/` — logo and image assets used by the site
 - `.github/workflows/pages.yml` — publishes the site to GitHub Pages after pushes to `main`
 - `AGENTS.md` — guidance for working on the site with Codex or another coding assistant
 - `.nojekyll` — tells GitHub Pages to publish the files without Jekyll processing
