@@ -17,7 +17,7 @@ The site is intentionally lightweight. It uses plain HTML, CSS and a small JavaS
 
 1. Extract the downloaded ZIP.
 2. Open Cursor.
-3. Select **File → Open Folder** and choose the `RIDA-website` folder.
+3. Select **File → Open Folder** and choose the website folder.
 4. Edit the wording in `index.html`.
 5. Save the file and open `index.html` in a browser to inspect it.
 
@@ -39,7 +39,7 @@ The `AGENTS.md` file gives Codex the project-specific boundaries.
 
 ## Create a GitHub repository
 
-1. Sign in to GitHub and create a new repository, such as `rida-website`.
+1. Sign in to GitHub and create a new repository, such as `runge-idanalytics`.
 2. Do not initialize it with a README, license or `.gitignore`; these are already included.
 3. In a terminal opened in this folder, run:
 
@@ -48,7 +48,7 @@ git init
 git add .
 git commit -m "Initial RIDA website"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/rida-website.git
+git remote add origin https://github.com/YOUR-USERNAME/runge-idanalytics.git
 git push -u origin main
 ```
 
@@ -64,7 +64,7 @@ Replace `YOUR-USERNAME` with your GitHub username.
 
 The initial address will normally follow this pattern:
 
-`https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`
+`https://YOUR-USERNAME.github.io/runge-idanalytics/`
 
 ## Connect a custom domain
 
