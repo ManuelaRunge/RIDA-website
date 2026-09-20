@@ -9,6 +9,7 @@ The site is intentionally lightweight. It uses plain HTML, CSS and a small JavaS
 - `index.html` — all visible website content and links
 - `styles.css` — colours, typography, layout and responsive design
 - `script.js` — automatically updates the copyright year
+- `.github/workflows/pages.yml` — publishes the site to GitHub Pages after pushes to `main`
 - `AGENTS.md` — guidance for working on the site with Codex or another coding assistant
 - `.nojekyll` — tells GitHub Pages to publish the files without Jekyll processing
 
@@ -57,13 +58,13 @@ Replace `YOUR-USERNAME` with your GitHub username.
 
 1. Open the repository on GitHub.
 2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and the `/ (root)` folder.
-5. Save and wait for GitHub to show the published URL.
+3. Under **Build and deployment**, choose **GitHub Actions**.
+4. Push a commit to `main`, or run the **Deploy GitHub Pages** workflow manually from the **Actions** tab.
+5. Wait for GitHub to show the published URL.
 
 The initial address will normally follow this pattern:
 
-`https://YOUR-USERNAME.github.io/rida-website/`
+`https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`
 
 ## Connect a custom domain
 
@@ -95,4 +96,4 @@ git commit -m "Describe the website update"
 git push
 ```
 
-GitHub Pages will publish the updated version automatically.
+The GitHub Actions workflow will publish the updated version automatically.
