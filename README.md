@@ -78,6 +78,10 @@ Once the site works at its GitHub address:
 
 GitHub may create a `CNAME` file in the repository. Keep that file once a custom domain is connected.
 
+## AI assistance statement
+
+This website was created with AI assistance. Its content is based on human-provided information and has been reviewed by Manuela Runge. Any use of AI in collaborative work is agreed separately according to project scope, requirements and safeguards.
+
 ## Before public launch
 
 - Replace the email address if a dedicated RIDA address becomes available.
